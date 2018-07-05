@@ -40,3 +40,5 @@ YMLabel *label = [[YMLabel alloc] initWithFrame:frame seletedBlock:^(UILabel *la
         NSLog(@"选中的文字是:%@ 选中的范围是%@ 第%li个", text, [NSValue valueWithRange:range], (long)index);
     }];
 ```
+
+![示例](./demo.jpg)
