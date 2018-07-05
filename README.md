@@ -41,4 +41,4 @@ YMLabel *label = [[YMLabel alloc] initWithFrame:frame seletedBlock:^(UILabel *la
     }];
 ```
 
-![示例](./demo.jpg)
+![示例](./demo.png)
