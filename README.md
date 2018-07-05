@@ -37,6 +37,6 @@
 示例：
 ```
 YMLabel *label = [[YMLabel alloc] initWithFrame:frame seletedBlock:^(UILabel *label, NSString *text, NSRange range, NSInteger index) {
-        NSLog(@"选中的文字是:%@ 选中的范围是%@ 第几个符合的%li", text, [NSValue valueWithRange:range], (long)index);
+        NSLog(@"选中的文字是:%@ 选中的范围是%@ 第%li个", text, [NSValue valueWithRange:range], (long)index);
     }];
 ```
